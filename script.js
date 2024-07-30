@@ -4,6 +4,8 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+
+// Random order of questions
 let shuffledQuestions
 let currentQuestionIndex
 
@@ -76,6 +78,8 @@ function clearStatusClass(element) {
     element.classList.remove('correct', 'wrong')
 }
 
+
+// Questions JSON
 const questions = [
     {
         question: "What is the capital city of France?",
